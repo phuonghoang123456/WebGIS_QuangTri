@@ -1,0 +1,37 @@
+
+# React / Node.js
+node_modules/
+dist/
+.vite/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# Local databases
+db.sqlite3
+*.backup
+*.dump
+
+# Large GIS files
+*.tif
+*.tiff
+*.gpkg
+
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/

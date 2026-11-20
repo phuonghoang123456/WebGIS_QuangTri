@@ -1,0 +1,8 @@
+$kind: http-request
+name: https://postman-echo.com/get
+description: ""
+url: https://postman-echo.com/get?project=webgis_quangtri
+method: GET
+queryParams:
+  project: webgis_quangtri
+order: 1000
