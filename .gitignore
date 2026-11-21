@@ -1,37 +1,66 @@
 
-# React / Node.js
+# Node.js / React
 node_modules/
 dist/
 .vite/
 
-# Python
+# Python / Django / Flask
 venv/
 .venv/
 __pycache__/
 *.pyc
+*.pyo
+db.sqlite3
 
-# Environment and secrets
+# Environment / secrets
 .env
 .env.*
 !.env.example
 *.pem
 *.key
-credentials.json
 service-account*.json
+credentials.json
 
-# Local databases
-db.sqlite3
+# Local databases / backups
+*.sqlite3
+*.sql.gz
 *.backup
 *.dump
 
-# Large GIS files
+# GIS large data
 *.tif
 *.tiff
 *.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+
+# QGIS temporary files
+*.qgz~
+*.qgs~
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
+logs/
+# User-uploaded scientific articles
+instance/article_pdfs/
 
-# Editors
-.vscode/
-.idea/
+# Other user uploads
+uploads/
+
+# QGIS metadata
+*.qmd
+
+# Python testing cache
+.pytest_cache/
+.mypy_cache/
+
+# Frontend test coverage
+coverage/
